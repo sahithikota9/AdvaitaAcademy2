@@ -1,0 +1,145 @@
+{
+    "10001": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 78, "Physics": 82, "Chemistry": 90},
+            "total": 250
+        }
+    },
+    "10002": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 70, "Physics": 75, "Chemistry": 80},
+            "total": 225
+        }
+    },
+    "10003": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 85, "Physics": 88, "Chemistry": 92},
+            "total": 265
+        }
+    },
+    "10004": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 60, "Physics": 72, "Chemistry": 68},
+            "total": 200
+        }
+    },
+    "10005": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 90, "Physics": 94, "Chemistry": 89},
+            "total": 273
+        }
+    },
+
+    "10006": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 55, "Physics": 65, "Chemistry": 70},
+            "total": 190
+        }
+    },
+    "10007": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 82, "Physics": 79, "Chemistry": 85},
+            "total": 246
+        }
+    },
+    "10008": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 68, "Physics": 74, "Chemistry": 80},
+            "total": 222
+        }
+    },
+    "10009": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 95, "Physics": 90, "Chemistry": 96},
+            "total": 281
+        }
+    },
+    "10010": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 72, "Physics": 78, "Chemistry": 75},
+            "total": 225
+        }
+    },
+
+    "10011": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 88, "Physics": 84, "Chemistry": 82},
+            "total": 254
+        }
+    },
+    "10012": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 60, "Physics": 62, "Chemistry": 58},
+            "total": 180
+        }
+    },
+    "10013": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 92, "Physics": 95, "Chemistry": 94},
+            "total": 281
+        }
+    },
+    "10014": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 65, "Physics": 70, "Chemistry": 68},
+            "total": 203
+        }
+    },
+    "10015": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 85, "Physics": 80, "Chemistry": 78},
+            "total": 243
+        }
+    },
+
+    "10016": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 75, "Physics": 70, "Chemistry": 72},
+            "total": 217
+        }
+    },
+    "10017": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 98, "Physics": 94, "Chemistry": 96},
+            "total": 288
+        }
+    },
+    "10018": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 50, "Physics": 55, "Chemistry": 60},
+            "total": 165
+        }
+    },
+    "10019": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 87, "Physics": 90, "Chemistry": 85},
+            "total": 262
+        }
+    },
+    "10020": {
+        "Exam 1": {
+            "date": "2025-01-10",
+            "subjects": {"Math": 76, "Physics": 80, "Chemistry": 78},
+            "total": 234
+        }
+    }
+}

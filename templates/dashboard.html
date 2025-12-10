@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advaita Academy Results Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #666;
+            margin-top: 0;
+            font-weight: normal;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #eee;
+            font-weight: bold;
+        }
+
+        .logout-btn {
+            margin-top: 30px;
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .logout-btn:hover {
+            background: #c9302c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome, {{ student.name }}</h1>
+        <h2>Roll Number: {{ student.roll }}</h2>
+
+        {% if results %}
+            {% for exam_name, exam_data in results.items() %}
+                <h2 style="margin-top: 40px;">{{ exam_name }} — {{ exam_data.date }}</h2>
+
+                <table>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+
+                    {% for subject, marks in exam_data.subjects.items() %}
+                        <tr>
+                            <td>{{ subject }}</td>
+                            <td>{{ marks }}</td>
+                        </tr>
+                    {% endfor %}
+
+                    <tr style="font-weight: bold; background:#fafafa;">
+                        <td>Total</td>
+                        <td>{{ exam_data.total }}</td>
+                    </tr>
+                </table>
+            {% endfor %}
+        {% else %}
+            <p style="text-align:center; color:#777; margin-top:20px;">
+                No results uploaded yet.
+            </p>
+        {% endif %}
+
+        <form action="/logout" method="POST">
+            <button class="logout-btn">Log Out</button>
+        </form>
+    </div>
+
+</body>
+</html>
